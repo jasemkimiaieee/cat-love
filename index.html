@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa-ir" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه جدید</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="btns">
+            <button class="btn btn--active" data-page="cart">تصویر گربه</button>
+            <button class="btn" data-page="cat-list">لیست علاقه مندی ها</button>
+        </div>
+        <div class="cart cart--active">
+            <img src="./load.gif" class="cart__img">
+            <div class="cart__btns">
+                <button class="cart__btn" id="dislike">👎🏻</button>
+                <button class="cart__btn" id="like">👍🏻</button>
+            </div>
+        </div>
+        <ul class="cat-list">
+        </ul>
+    </div>
+    <div class="modale">
+        <button class="modale__closer">⨉</button>
+        <img src="#" alt="load">
+        <a href="#" class="cat-download" target="_blank">download</a>
+        <button class="cat-remove">remove</button>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
